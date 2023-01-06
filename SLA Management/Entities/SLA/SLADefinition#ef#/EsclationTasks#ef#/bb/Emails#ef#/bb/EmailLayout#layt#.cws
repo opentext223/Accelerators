@@ -1,0 +1,90 @@
+
+<Layout
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.layout.Layout"
+	RuntimeDocumentID="3CE1A1C4-AFE3-A1ED-98FF-84B0E127D9D4">
+	<DocumentID>3CE1A1C4-AFE3-A1ED-98FF-84B0E12799D4</DocumentID>
+	<Name>EmailLayout</Name>
+	<Description>EmailLayout</Description>
+	<CreatedBy>Joe Lewis</CreatedBy>
+	<CreationDate>2022-11-14T09:24:26.339</CreationDate>
+	<Notes/>
+	<Definition>{&quot;layoutType&quot;:&quot;object&quot;,&quot;id&quot;:&quot;3CE1A1C4-AFE3-A1ED-98FF-84B0E12799D4&quot;,&quot;layoutPanelType&quot;:&quot;FitToScreen&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:&quot;null&quot;,&quot;size&quot;:10,&quot;id&quot;:&quot;53C99B46-4C02-4237-AE16-6F2BD01A62DD&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:&quot;null&quot;,&quot;size&quot;:10,&quot;id&quot;:&quot;DD98BCB7-BA8A-426C-B56A-2C0F518E5D8A&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;1F732761-1273-472E-AB87-5A336DC6014A&quot;,&quot;size&quot;:&quot;null&quot;,&quot;id&quot;:&quot;01F01CBA-361E-45C3-ACE5-146784E70CC8&quot;,&quot;nodes&quot;:[]}]}]},{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:&quot;null&quot;,&quot;size&quot;:90,&quot;id&quot;:&quot;60027ED0-40A3-474B-929A-E9E0E64D4D1D&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:&quot;null&quot;,&quot;size&quot;:90,&quot;id&quot;:&quot;2240D801-1146-490B-A3DE-85E8FA02988F&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;119B4508-AE73-46CB-A83E-189703D94ADB&quot;,&quot;size&quot;:&quot;null&quot;,&quot;id&quot;:&quot;3D94899F-1C3E-4ACB-83BA-86A1C09F81EE&quot;,&quot;nodes&quot;:[]}]}]}],&quot;preview&quot;:false,&quot;full&quot;:false,&quot;includeInCreate&quot;:false,&quot;showFirstTab&quot;:false}</Definition>
+	<HelpURL></HelpURL>
+	<HideCreateAction>false</HideCreateAction>
+	<IncludeInCreate>false</IncludeInCreate>
+	<IsFullLayout>true</IsFullLayout>
+	<IsPreviewLayout>true</IsPreviewLayout>
+	<LayoutPanelType>FitToScreen</LayoutPanelType>
+	<LayoutType>0</LayoutType>
+	<ShowFirstTab>false</ShowFirstTab>
+	<ActionBarAssociations/>
+	<BuildingBlock>
+		<uri
+			id="98FA9BBD-851C-A1EB-8B5F-40E3FA71D972"
+		/>
+	</BuildingBlock>
+	<DisplayName/>
+	<FormAssociations/>
+	<Image/>
+	<LayoutAssociations/>
+	<LayoutPanels>
+		<LayoutPanel
+			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
+			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			RuntimeDocumentID="3CE1A1C4-AFE3-A1ED-98FF-84B0E12859D4">
+			<DocumentID>3CE1A1C4-AFE3-A1ED-98FF-84B0E12819D4</DocumentID>
+			<Name>Breadcrumbs</Name>
+			<Description/>
+			<CreatedBy>Joe Lewis</CreatedBy>
+			<CreationDate>2022-11-14T09:24:26.339</CreationDate>
+			<Notes/>
+			<Definition>{&quot;sourceId&quot;: &quot;F2F761CA44844DBABCEDD7B6FF1EEBDD&quot;, &quot;sourceName&quot;: &quot;Breadcrumbs&quot;, &quot;chrome&quot;: &quot;none&quot;, &quot;id&quot;: &quot;1F732761-1273-472E-AB87-5A336DC6014A&quot;, &quot;imageQualifiedName&quot;: null, &quot;dockPanel&quot;: true, &quot;customScriptElementId&quot;: &quot;&quot;, &quot;customExtensions&quot;: &quot;&quot;, &quot;properties&quot;: []}</Definition>
+			<DisplayName>Breadcrumbs</DisplayName>
+			<ModelerId>1F732761-1273-472E-AB87-5A336DC6014A</ModelerId>
+			<SourceId>F2F761CA44844DBABCEDD7B6FF1EEBDD</SourceId>
+			<SourceName>Breadcrumbs</SourceName>
+			<ActionBarAssociation/>
+			<CustomScript/>
+			<FormAssociation/>
+			<IHubPanelConfiguration/>
+			<LayoutAssociation/>
+			<LocalizableDisplayName/>
+			<PanelCategories/>
+			<PanelIcon/>
+			<WorklistAssociation/>
+			<XFormAssociation/>
+			<filterCriteria/>
+		</LayoutPanel>
+		<LayoutPanel
+			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
+			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			RuntimeDocumentID="3CE1A1C4-AFE3-A1ED-98FF-84B0E128D9D4">
+			<DocumentID>3CE1A1C4-AFE3-A1ED-98FF-84B0E12899D4</DocumentID>
+			<Name>EmailDetails</Name>
+			<Description/>
+			<CreatedBy>Joe Lewis</CreatedBy>
+			<CreationDate>2022-11-14T09:24:26.34</CreationDate>
+			<Notes/>
+			<Definition>{ &quot;sourceId&quot;: &quot;EF3097D681234A78B4F7A0995C8A263F&quot;, &quot;sourceName&quot;: &quot;EmailDetails&quot;, &quot;chrome&quot;: &quot;none&quot;, &quot;id&quot;: &quot;119B4508-AE73-46CB-A83E-189703D94ADB&quot;, &quot;blockName&quot;: &quot;EmailBuildingBlock&quot;, &quot;properties&quot;: []}</Definition>
+			<DisplayName>EmailDetails</DisplayName>
+			<ModelerId>119B4508-AE73-46CB-A83E-189703D94ADB</ModelerId>
+			<SourceId>EF3097D681234A78B4F7A0995C8A263F</SourceId>
+			<SourceName>EmailDetails</SourceName>
+			<ActionBarAssociation/>
+			<CustomScript/>
+			<FormAssociation/>
+			<IHubPanelConfiguration/>
+			<LayoutAssociation/>
+			<LocalizableDisplayName/>
+			<PanelCategories/>
+			<PanelIcon/>
+			<WorklistAssociation/>
+			<XFormAssociation/>
+			<filterCriteria/>
+		</LayoutPanel>
+	</LayoutPanels>
+	<Original/>
+	<WorklistAssociations/>
+	<XFormAssociations/>
+</Layout>
