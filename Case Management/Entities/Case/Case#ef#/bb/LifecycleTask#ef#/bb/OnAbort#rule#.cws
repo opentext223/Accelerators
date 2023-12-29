@@ -11,15 +11,20 @@
 	<CreationDate>2020-11-19T15:38:22.721</CreationDate>
 	<Notes/>
 	<ActionLogged>false</ActionLogged>
+	<ActionOnSingleItem>false</ActionOnSingleItem>
 	<ActionSignedByUser>false</ActionSignedByUser>
 	<AllowChangesFromAnotherEntity>0</AllowChangesFromAnotherEntity>
 	<BusinessProcessReference>98FA9BBD-851C-A1EB-8A9F-1524F487D970</BusinessProcessReference>
 	<BusinessProcessReferenceName>UpdateFailedTaskStatus</BusinessProcessReferenceName>
 	<ButtonVisibility></ButtonVisibility>
 	<CreateNewRuleManagerId>true</CreateNewRuleManagerId>
+	<CustomizeDimensionsOfRuleDialog>false</CustomizeDimensionsOfRuleDialog>
+	<CustomizeHeightOfRuleDialog></CustomizeHeightOfRuleDialog>
+	<CustomizeWidthOfRuleDialog></CustomizeWidthOfRuleDialog>
 	<DefaultToAdvancedMode>0</DefaultToAdvancedMode>
 	<EnabledOnError>0</EnabledOnError>
 	<Expression>item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.2B58796CCFD4487EAB78E076F34CD990)==&quot;6&quot; || item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.2B58796CCFD4487EAB78E076F34CD990)==&quot;8&quot; || item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.2B58796CCFD4487EAB78E076F34CD990)==&quot;9&quot;</Expression>
+	<HideHeaderFooterOnRuleDialog>false</HideHeaderFooterOnRuleDialog>
 	<IsRuleValid>1</IsRuleValid>
 	<PostRuleActionOption>0</PostRuleActionOption>
 	<PostRuleUrl></PostRuleUrl>
@@ -55,7 +60,7 @@
 	<RuleEntityExpression>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8A9F-3485810BD970">
 			<DocumentID>98FA9BBD-851C-A1EB-8A9F-3485810C1970</DocumentID>
 			<Name>ruleEntityExpression</Name>
@@ -128,7 +133,7 @@
 	<RuleSetSourceEntityExpression>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8A9F-3485810CD970">
 			<DocumentID>98FA9BBD-851C-A1EB-8A9F-3485810D1970</DocumentID>
 			<Name>ruleSetSourceEntityExpression</Name>
@@ -161,7 +166,7 @@
 	<RuleSetTargetEntityExpression>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8A9F-3485810C5970">
 			<DocumentID>98FA9BBD-851C-A1EB-8A9F-3485810C9970</DocumentID>
 			<Name>ruleSetTargetEntityExpression</Name>

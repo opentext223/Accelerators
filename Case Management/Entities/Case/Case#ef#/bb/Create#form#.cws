@@ -20,7 +20,7 @@
 	<FormComponents>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BF8F-D4CD2592196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BF8F-D4CD2591D96C</DocumentID>
 			<Name>FormsFragment</Name>
@@ -37,25 +37,28 @@
 			<IsContainer>true</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel/>
 			<LocalizableTooltip/>
 			<ParentComponent/>
 			<PathRelationships/>
 			<PickerWorklist/>
+			<PreviewLayoutAssociation/>
 			<Property/>
 			<Relationship/>
 			<RelationshipPath/>
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BF8F-D4CD2591996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BF8F-D4CD2591596C</DocumentID>
 			<Name>FormPropertyComponentLPYO4YXX4P1CYHMTY41DGAH6DQ9U59GB</Name>
@@ -72,12 +75,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel/>
 			<LocalizableTooltip/>
@@ -88,6 +93,7 @@
 			</ParentComponent>
 			<PathRelationships/>
 			<PickerWorklist/>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BF8F-A97CB9FD596C"
@@ -98,7 +104,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BF8F-D4CD2591196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BF8F-D4CD2590D96C</DocumentID>
 			<Name>FormPropertyComponentU40H2X67WAVYL4ALKMNKUWA5X4E9LKE7</Name>
@@ -115,12 +121,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel/>
 			<LocalizableTooltip/>
@@ -131,6 +139,7 @@
 			</ParentComponent>
 			<PathRelationships/>
 			<PickerWorklist/>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BF8F-A97CB9FAD96C"
@@ -141,7 +150,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-2A636C34D96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-2A636C34996C</DocumentID>
 			<Name>FormPropertyComponentUT4S5MYN5RXI79257XUXUA0M5NIVBUJC</Name>
@@ -158,12 +167,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel>
 				<TranslatableText
@@ -192,6 +203,7 @@
 			</ParentComponent>
 			<PathRelationships/>
 			<PickerWorklist/>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BFC0-C7B71423596C"
@@ -240,7 +252,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-2A636C35D96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-2A636C35996C</DocumentID>
 			<Name>FormEntityComponentG4GIKBIG5OV4U1515SW6S9GGHLDVMGBA</Name>
@@ -257,12 +269,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel/>
 			<LocalizableTooltip/>
@@ -277,6 +291,7 @@
 					id="98FA9BBD-851C-A1EA-BFD6-2A636C31D96C"
 				/>
 			</PickerWorklist>
+			<PreviewLayoutAssociation/>
 			<Property/>
 			<Relationship>
 				<uri
@@ -325,7 +340,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-4841A7B9596C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-4841A7B9196C</DocumentID>
 			<Name>FormActionButtonComponentT6000HCYFQB0PY6JOD5YMJI0QNGNS7CL</Name>
@@ -346,12 +361,14 @@
 				/>
 			</Action>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel/>
 			<LocalizableTooltip/>
@@ -362,13 +379,14 @@
 			</ParentComponent>
 			<PathRelationships/>
 			<PickerWorklist/>
+			<PreviewLayoutAssociation/>
 			<Property/>
 			<Relationship/>
 			<RelationshipPath/>
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-7511D61E196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-7511D61DD96C</DocumentID>
 			<Name>FormPropertyComponentNNM7MYD0T2HKKLVHKB3D12MTM0ROP50B</Name>
@@ -385,12 +403,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel/>
 			<LocalizableTooltip/>
@@ -401,6 +421,7 @@
 			</ParentComponent>
 			<PathRelationships/>
 			<PickerWorklist/>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BFA0-8ED33958996C"
@@ -411,7 +432,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-4841A7CAD96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-4841A7CA996C</DocumentID>
 			<Name>FormEntityComponentURVTRLRI095DPTKN0QVOHMH8W9PT38CI</Name>
@@ -428,12 +449,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel>
 				<TranslatableText
@@ -466,6 +489,7 @@
 					id="98FA9BBD-851C-A1EA-BF90-C24AE638596C"
 				/>
 			</PickerWorklist>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BF90-ABE40D9B996C"
@@ -518,7 +542,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-4841A7C1D96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-4841A7C1996C</DocumentID>
 			<Name>FormEntityComponentFY9RQNS6VLX6HOY49DXIV8B53QMG7F18</Name>
@@ -535,12 +559,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel>
 				<TranslatableText
@@ -573,6 +599,7 @@
 					id="98FA9BBD-851C-A1EA-BF90-8092FD7C196C"
 				/>
 			</PickerWorklist>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BF90-68AD4706196C"
@@ -625,7 +652,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-4841A7BDD96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-4841A7BD996C</DocumentID>
 			<Name>FormEntityComponentXAQAEERVDTK2JPB3PFNSNP87KGASL6N8</Name>
@@ -642,12 +669,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel>
 				<TranslatableText
@@ -680,6 +709,7 @@
 					id="98FA9BBD-851C-A1EA-BF91-2F553E2A996C"
 				/>
 			</PickerWorklist>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BF91-1BE9519BD96C"
@@ -732,7 +762,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-4841A7C6596C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-4841A7C6196C</DocumentID>
 			<Name>FormEntityComponentJKNRK6OK38L7CECH5O9X8IRRBG37MLJ8</Name>
@@ -749,12 +779,14 @@
 			<IsContainer>false</IsContainer>
 			<Action/>
 			<ConstrainByRelationship/>
+			<CreatableAssociations/>
 			<CustomScript/>
 			<FilterCriteria/>
 			<Form/>
 			<FormComponentCategories/>
 			<FormComponentDateFormat/>
 			<FormComponentDateTimeFormat/>
+			<FullviewLayoutAssociation/>
 			<Image/>
 			<LocalizableLabel>
 				<TranslatableText
@@ -787,6 +819,7 @@
 					id="98FA9BBD-851C-A1EA-BF90-D2B82694196C"
 				/>
 			</PickerWorklist>
+			<PreviewLayoutAssociation/>
 			<Property>
 				<uri
 					id="98FA9BBD-851C-A1EA-BF90-CE3CC644996C"

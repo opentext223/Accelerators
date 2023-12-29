@@ -31,7 +31,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="3CE1A1C4-AFE3-A1ED-98FF-84B0E11CD9D4">
 			<DocumentID>3CE1A1C4-AFE3-A1ED-98FF-84B0E11C99D4</DocumentID>
 			<Name>Breadcrumbs</Name>
@@ -58,7 +58,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="3CE1A1C4-AFE3-A1ED-98FF-84B0E11D59D4">
 			<DocumentID>3CE1A1C4-AFE3-A1ED-98FF-84B0E11D19D4</DocumentID>
 			<Name>EmailDetails</Name>

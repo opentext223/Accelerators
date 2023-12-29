@@ -19,6 +19,9 @@
 	<Filters></Filters>
 	<HideIfNoResults>false</HideIfNoResults>
 	<IsCardViewEnabled>false</IsCardViewEnabled>
+	<IsChartViewEnabled>false</IsChartViewEnabled>
+	<IsHighlightUnread>false</IsHighlightUnread>
+	<IsReadOnlyView>false</IsReadOnlyView>
 	<ItemOpenMode>0</ItemOpenMode>
 	<LayoutId>98FA9BBD-851C-A1EA-BFB5-E72E5517196C</LayoutId>
 	<MaxCount>200</MaxCount>
@@ -28,12 +31,14 @@
 	<ShowTotalCountInList>false</ShowTotalCountInList>
 	<UserVisible>true</UserVisible>
 	<ActionBar/>
+	<AssignedFilterCriteria/>
 	<BuildingBlock>
 		<uri
 			id="98FA9BBD-851C-A1EA-BFB5-E5B03DFD196C"
 		/>
 	</BuildingBlock>
 	<CardViewConfiguration/>
+	<ChartViewConfigurations/>
 	<ConditionalCountCriteria/>
 	<CreatableAssociations/>
 	<DisplayName>
@@ -78,7 +83,7 @@
 	<WorklistColumns>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFB5-E72E5513196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFB5-E72E5512D96C</DocumentID>
 			<Name>Untitled WorklistColumn</Name>
@@ -140,6 +145,7 @@
 					</RootOwner>
 				</PropertyObjectPath>
 			</ItemMemberPropertyPath>
+			<Layout/>
 			<LocalizableColumnLabel/>
 			<Property>
 				<uri
@@ -151,7 +157,7 @@
 		</WorklistColumn>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFB5-E72E5512196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFB5-E72E5511D96C</DocumentID>
 			<Name>Untitled WorklistColumn (1)</Name>
@@ -213,6 +219,7 @@
 					</RootOwner>
 				</PropertyObjectPath>
 			</ItemMemberPropertyPath>
+			<Layout/>
 			<LocalizableColumnLabel/>
 			<Property>
 				<uri
@@ -224,7 +231,7 @@
 		</WorklistColumn>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFB5-E72E5511196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFB5-E72E5510D96C</DocumentID>
 			<Name>Untitled WorklistColumn (2)</Name>
@@ -286,6 +293,7 @@
 					</RootOwner>
 				</PropertyObjectPath>
 			</ItemMemberPropertyPath>
+			<Layout/>
 			<LocalizableColumnLabel/>
 			<Property>
 				<uri

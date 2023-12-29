@@ -100,7 +100,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF7-E53E3F83D96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF7-E53E3F83996C</DocumentID>
 			<Name>Breadcrumbs</Name>
@@ -119,13 +119,15 @@
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF7-E53E3F83596C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF7-E53E3F83196C</DocumentID>
 			<Name>Actions</Name>
@@ -144,13 +146,15 @@
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF7-E53E3F82D96C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21EF596C</DocumentID>
 			<Name>LifecycleProgressPanel</Name>
@@ -169,13 +173,15 @@
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF8-5CBC21EF196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21EED96C</DocumentID>
 			<Name>Form</Name>
@@ -216,13 +222,15 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF8-5CBC21EE196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21EDD96C</DocumentID>
 			<Name>Form1</Name>
@@ -263,13 +271,15 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF8-5CBC21ED196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21ECD96C</DocumentID>
 			<Name>TaskPanel</Name>
@@ -288,13 +298,15 @@
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF8-5CBC21EC996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21EC596C</DocumentID>
 			<Name>Form2</Name>
@@ -335,13 +347,15 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF8-5CBC21EB996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21EB596C</DocumentID>
 			<Name>Discussions</Name>
@@ -360,13 +374,15 @@
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFF8-5CBC21E5596C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFF8-5CBC21E5196C</DocumentID>
 			<Name>Form3</Name>
@@ -407,9 +423,11 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 	</LayoutPanels>
 	<Original/>

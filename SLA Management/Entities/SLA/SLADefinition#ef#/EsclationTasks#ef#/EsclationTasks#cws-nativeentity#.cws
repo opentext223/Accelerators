@@ -1652,7 +1652,7 @@
 			<Email>
 				<Email
 					type="com.cordys.entity.buildingblocks.email.Email"
-					typeVersion="70B3859A-6661-405A-915F-79AC52C92B04"
+					typeVersion="B59CF123-2383-49B2-8C3E-D8F323D8F3F8"
 					RuntimeDocumentID="98FA9BBD-851C-A1EB-8B5F-40E3FA761972">
 					<DocumentID>98FA9BBD-851C-A1EB-8B5F-40E3FA75D972</DocumentID>
 					<Name>Email</Name>
@@ -1671,6 +1671,7 @@
 					<EmailConfigurationName></EmailConfigurationName>
 					<EmailMessageFileType>eml</EmailMessageFileType>
 					<SaveLocationOfEmailMessage>Emails/Messages</SaveLocationOfEmailMessage>
+					<UseLoggedInUserInFromAddress>false</UseLoggedInUserInFromAddress>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EB-8B5F-40E3FA765972"
@@ -1682,11 +1683,18 @@
 					<ContentFolderLocationForIncomingAttachment/>
 					<ContentFolderLocationForSaveEmailTo/>
 					<DisplayName/>
+					<DraftOrForwardEmailAttachmentPreviewLayout/>
+					<EmailAttachmentPreviewLayout/>
 					<EmailConfig>
 						<uri
 							id="98FA9BBD-851C-A1EB-8B5F-5D46893B5972"
 						/>
 					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="98FA9BBD-851C-A1EB-8B5F-5D4689015972"
+						/>
+					</EmailContentLayout>
 				</Email>
 			</Email>
 			<Entity>

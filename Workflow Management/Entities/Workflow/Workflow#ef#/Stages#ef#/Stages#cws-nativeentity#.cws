@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -959,7 +961,7 @@
 											<Value>Not Started</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8262-68EE86439113"
+													id="28DFEB6B-98A5-A1EE-A990-BAB141EA89E2"
 													path="Workflow Management/Web/Stage_status_NotStarted.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1003,7 +1005,7 @@
 											<Value>In Progress</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8262-676DE8039113"
+													id="28DFEB6B-98A5-A1EE-A990-BAB141EEC9E2"
 													path="Workflow Management/Web/Stage_status_inprogress.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1047,7 +1049,7 @@
 											<Value>On Hold</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8262-6AC3A5DF9113"
+													id="28DFEB6B-98A5-A1EE-A990-BAB141E649E2"
 													path="Workflow Management/Web/Stage_status_onhold.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1091,7 +1093,7 @@
 											<Value>Completed</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8262-659B3FB7D113"
+													id="28DFEB6B-98A5-A1EE-A990-BAB141F309E2"
 													path="Workflow Management/Web/Stage_status_completed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

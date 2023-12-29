@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -591,7 +593,7 @@
 		</IdentityBuildingBlock>
 		<EmailLogBuildingBlock
 			type="com.cordys.entity.buildingblocks.emaillog.EmailLogBuildingBlock"
-			typeVersion="67141489-10E3-4E57-AB65-80B9133B1AE6"
+			typeVersion="28043D00-307B-49CD-90D7-5D4A04DF5025"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8B92-346448171972">
 			<DocumentID>98FA9BBD-851C-A1EB-8B92-34644816D972</DocumentID>
 			<Name>EmailLog</Name>
@@ -685,7 +687,7 @@
 					<CreationDate>2020-11-24T11:33:27.074</CreationDate>
 					<Notes/>
 					<ConflictLevel></ConflictLevel>
-					<DataType>Text</DataType>
+					<DataType>LongText</DataType>
 					<ExposeForReuse>false</ExposeForReuse>
 					<Expression></Expression>
 					<IsComputedProperty>false</IsComputedProperty>
@@ -701,28 +703,25 @@
 					</BuildingBlock>
 					<DisplayName/>
 					<OwnedTypeDefinition>
-						<SmallTextPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.text.SmallTextPropertyDefinition"
+						<LongTextPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.text.LongTextPropertyDefinition"
 							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="98FA9BBD-851C-A1EB-8B92-346448151972">
-							<DocumentID>98FA9BBD-851C-A1EB-8B92-34644814D972</DocumentID>
-							<Name>98FA9BBD-851C-A1EB-8B92-34644814D972</Name>
-							<Description>98FA9BBD-851C-A1EB-8B92-34644814D972</Description>
-							<CreatedBy>Joe Lewis</CreatedBy>
-							<CreationDate>2020-11-24T11:33:27.07</CreationDate>
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-DE5CE85C89E2">
+							<DocumentID>5A4B61DD-83FB-4E77-9016-9868F93427AA</DocumentID>
+							<Name>5A4B61DD-83FB-4E77-9016-9868F93427AA</Name>
+							<Description/>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:21.166</CreationDate>
 							<Notes/>
-							<DefaultValue></DefaultValue>
-							<Length>4000</Length>
-							<Pattern></Pattern>
 							<lowerBound>1</lowerBound>
 							<upperBound>1</upperBound>
 							<Type/>
-						</SmallTextPropertyDefinition>
+						</LongTextPropertyDefinition>
 					</OwnedTypeDefinition>
 					<Tooltip/>
 					<TypeDefinition>
 						<uri
-							id="98FA9BBD-851C-A1EB-8B92-34644814D972"
+							id="5A4B61DD-83FB-4E77-9016-9868F93427AA"
 						/>
 					</TypeDefinition>
 				</Property>
@@ -736,7 +735,7 @@
 					<CreationDate>2020-11-24T11:33:27.062</CreationDate>
 					<Notes/>
 					<ConflictLevel></ConflictLevel>
-					<DataType>Text</DataType>
+					<DataType>LongText</DataType>
 					<ExposeForReuse>false</ExposeForReuse>
 					<Expression></Expression>
 					<IsComputedProperty>false</IsComputedProperty>
@@ -752,28 +751,25 @@
 					</BuildingBlock>
 					<DisplayName/>
 					<OwnedTypeDefinition>
-						<SmallTextPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.text.SmallTextPropertyDefinition"
+						<LongTextPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.text.LongTextPropertyDefinition"
 							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="98FA9BBD-851C-A1EB-8B92-346448141972">
-							<DocumentID>98FA9BBD-851C-A1EB-8B92-34644813D972</DocumentID>
-							<Name>98FA9BBD-851C-A1EB-8B92-34644813D972</Name>
-							<Description>98FA9BBD-851C-A1EB-8B92-34644813D972</Description>
-							<CreatedBy>Joe Lewis</CreatedBy>
-							<CreationDate>2020-11-24T11:33:27.077</CreationDate>
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-DE5CE85CC9E2">
+							<DocumentID>31B3C87A-F465-497D-B35C-BCAE36BA15C8</DocumentID>
+							<Name>31B3C87A-F465-497D-B35C-BCAE36BA15C8</Name>
+							<Description/>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:35.392</CreationDate>
 							<Notes/>
-							<DefaultValue></DefaultValue>
-							<Length>4000</Length>
-							<Pattern></Pattern>
 							<lowerBound>1</lowerBound>
 							<upperBound>1</upperBound>
 							<Type/>
-						</SmallTextPropertyDefinition>
+						</LongTextPropertyDefinition>
 					</OwnedTypeDefinition>
 					<Tooltip/>
 					<TypeDefinition>
 						<uri
-							id="98FA9BBD-851C-A1EB-8B92-34644813D972"
+							id="31B3C87A-F465-497D-B35C-BCAE36BA15C8"
 						/>
 					</TypeDefinition>
 				</Property>
@@ -787,7 +783,7 @@
 					<CreationDate>2020-11-24T11:33:27.064</CreationDate>
 					<Notes/>
 					<ConflictLevel></ConflictLevel>
-					<DataType>Text</DataType>
+					<DataType>LongText</DataType>
 					<ExposeForReuse>false</ExposeForReuse>
 					<Expression></Expression>
 					<IsComputedProperty>false</IsComputedProperty>
@@ -803,28 +799,25 @@
 					</BuildingBlock>
 					<DisplayName/>
 					<OwnedTypeDefinition>
-						<SmallTextPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.text.SmallTextPropertyDefinition"
+						<LongTextPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.text.LongTextPropertyDefinition"
 							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="98FA9BBD-851C-A1EB-8B92-346448131972">
-							<DocumentID>98FA9BBD-851C-A1EB-8B92-34644812D972</DocumentID>
-							<Name>98FA9BBD-851C-A1EB-8B92-34644812D972</Name>
-							<Description>98FA9BBD-851C-A1EB-8B92-34644812D972</Description>
-							<CreatedBy>Joe Lewis</CreatedBy>
-							<CreationDate>2020-11-24T11:33:27.079</CreationDate>
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-DE5CE85D09E2">
+							<DocumentID>4F1B885D-CDDB-4373-92A7-CB5DD61CBD66</DocumentID>
+							<Name>4F1B885D-CDDB-4373-92A7-CB5DD61CBD66</Name>
+							<Description/>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:21.907</CreationDate>
 							<Notes/>
-							<DefaultValue></DefaultValue>
-							<Length>4000</Length>
-							<Pattern></Pattern>
 							<lowerBound>1</lowerBound>
 							<upperBound>1</upperBound>
 							<Type/>
-						</SmallTextPropertyDefinition>
+						</LongTextPropertyDefinition>
 					</OwnedTypeDefinition>
 					<Tooltip/>
 					<TypeDefinition>
 						<uri
-							id="98FA9BBD-851C-A1EB-8B92-34644812D972"
+							id="4F1B885D-CDDB-4373-92A7-CB5DD61CBD66"
 						/>
 					</TypeDefinition>
 				</Property>
@@ -1118,6 +1111,7 @@
 			<Content>
 				<Content
 					type="com.cordys.entity.buildingblocks.content.Content"
+					typeVersion="98fa9b06-188b-a1ed-b293-670a6f3b105f"
 					RuntimeDocumentID="98FA9BBD-851C-A1EB-8B92-3464480A9972">
 					<DocumentID>98FA9BBD-851C-A1EB-8B92-3464480A5972</DocumentID>
 					<Name>Untitled ContentOption</Name>
@@ -1127,12 +1121,14 @@
 					<Notes/>
 					<MaxNoOfFiles></MaxNoOfFiles>
 					<RootPath>${system.organization}/${solution.name}/${contentbuildingblock.path}</RootPath>
+					<SaveSignedDocumentAs>NewVersion</SaveSignedDocumentAs>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EB-8B92-3464480B5972"
 						/>
 					</BuildingBlock>
 					<DisplayName/>
+					<SignedDocumentsLocation/>
 				</Content>
 			</Content>
 			<Entity>

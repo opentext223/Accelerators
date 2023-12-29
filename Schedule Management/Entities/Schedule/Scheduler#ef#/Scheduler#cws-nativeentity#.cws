@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -795,7 +797,7 @@
 							<upperBound>1</upperBound>
 							<DefaultImage>
 								<uri
-									id="98FA9BBD-851C-A1EC-A913-23395D5799A7"
+									id="28DFEB6B-98A5-A1EE-A990-BD83CD97C9E2"
 									path="Schedule Management/Web/Workflow_default_image.png"
 									type="com.cordys.cws.documenttypes.image.Png"
 								/>
@@ -1099,7 +1101,7 @@
 											<Value>Active</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CB7F1D3119A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDACC9E2"
 													path="Schedule Management/Web/Schedule_Active.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1143,7 +1145,7 @@
 											<Value>Inactive</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CE7BCFCD59A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA489E2"
 													path="Schedule Management/Web/Schedule_InActive.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1187,7 +1189,7 @@
 											<Value>Draft</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CCFD9C4999A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA889E2"
 													path="Schedule Management/Web/Schedule_Draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

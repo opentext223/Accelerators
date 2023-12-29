@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -1226,7 +1228,7 @@
 											<Value>Active</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8267-BA9C644BD113"
+													id="28DFEB6B-98A5-A1EE-A990-BC05C32D09E2"
 													path="Team Management/Web/Team_status_active.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1270,7 +1272,7 @@
 											<Value>Inactive</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8267-BC2A0A9B9113"
+													id="28DFEB6B-98A5-A1EE-A990-BC05C328C9E2"
 													path="Team Management/Web/Team_status_inactive.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

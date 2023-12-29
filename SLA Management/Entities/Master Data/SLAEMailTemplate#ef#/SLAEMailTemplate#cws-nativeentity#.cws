@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -780,7 +782,7 @@
 											<Value>1</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82BB-D636B88BD113"
+													id="28DFEB6B-98A5-A1EE-A990-BCCF673209E2"
 													path="SLA Management/Web/sla_status_active.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -824,7 +826,7 @@
 											<Value>0</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82BB-D7C049675113"
+													id="28DFEB6B-98A5-A1EE-A990-BCCF672549E2"
 													path="SLA Management/Web/sla_status_inactive.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

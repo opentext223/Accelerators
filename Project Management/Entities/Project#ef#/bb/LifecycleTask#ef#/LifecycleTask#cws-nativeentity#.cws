@@ -578,7 +578,7 @@
 		</IdentityBuildingBlock>
 		<InboxTaskBuildingBlock
 			type="com.cordys.entity.buildingblocks.inboxtask.InboxTaskBuildingBlock"
-			typeVersion="4936c25f-e321-4398-8ae8-d69178136b4d"
+			typeVersion="D646C9D1-F5CF-4407-BF9E-7F42B1C9158F"
 			RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-5406E6CE7FCB">
 			<DocumentID>98FA9BBD-851C-A1EC-A9A6-7955A92299A8</DocumentID>
 			<Name>Task</Name>
@@ -2416,7 +2416,7 @@
 					<CreationDate>2022-03-18T09:01:12.768</CreationDate>
 					<Notes/>
 					<ConflictLevel>None</ConflictLevel>
-					<DataType>Decimal</DataType>
+					<DataType>IntegerValueList</DataType>
 					<ExposeForReuse>false</ExposeForReuse>
 					<Expression></Expression>
 					<IsComputedProperty>false</IsComputedProperty>
@@ -2450,30 +2450,154 @@
 						</TranslatableText>
 					</DisplayName>
 					<OwnedTypeDefinition>
-						<DecimalPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.number.DecimalPropertyDefinition"
-							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="98FA9BBD-851C-A1EC-A9A6-7955A97519A8">
-							<DocumentID>98FA9BBD-851C-A1EC-A9A6-7955A974D9A8</DocumentID>
-							<Name>98FA9BBD-851C-A1EC-A9A6-7955A974D9A8</Name>
-							<Description>98FA9BBD-851C-A1EC-A9A6-7955A974D9A8</Description>
-							<CreatedBy>Joe Lewis</CreatedBy>
-							<CreationDate>2022-03-18T09:01:12.732</CreationDate>
+						<IntegerEnumPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.staticEnum.IntegerEnumPropertyDefinition"
+							typeVersion="005056C0-0008-11E6-ECD4-9ED50A5ADB27 4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262A09E2">
+							<DocumentID>6E1C8563-A895-39D5-AE70-98103E5E2F41</DocumentID>
+							<Name>6E1C8563-A895-39D5-AE70-98103E5E2F41</Name>
+							<Description/>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:24.594</CreationDate>
 							<Notes/>
 							<DefaultValue></DefaultValue>
-							<DigitsLeftOfDecimal>18</DigitsLeftOfDecimal>
-							<DigitsRightOfDecimal>0</DigitsRightOfDecimal>
-							<Max></Max>
-							<Min></Min>
+							<IsEnumerationSorted>false</IsEnumerationSorted>
 							<lowerBound>1</lowerBound>
 							<upperBound>1</upperBound>
+							<DefaultEnum/>
+							<Enums/>
 							<Type/>
-						</DecimalPropertyDefinition>
+							<ValuesDefinition>
+								<StaticIntegerEnumSet
+									type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnumSet"
+									RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262A49E2">
+									<DocumentID>2DD38A00-4EA7-3F9A-83FA-4161C0D0BB78</DocumentID>
+									<Name>2DD38A00-4EA7-3F9A-83FA-4161C0D0BB78</Name>
+									<Description/>
+									<CreatedBy>ouathuser1@AWP</CreatedBy>
+									<CreationDate>2023-12-29T12:16:30.174</CreationDate>
+									<Notes/>
+									<DefaultEnum/>
+									<Enums>
+										<StaticIntegerEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1BB27"
+											RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262A89E2">
+											<DocumentID>088404DA-8FAA-3285-ABA7-903C5068C79D</DocumentID>
+											<Name>088404DA-8FAA-3285-ABA7-903C5068C79D</Name>
+											<Description/>
+											<CreatedBy>ouathuser1@AWP</CreatedBy>
+											<CreationDate>2023-12-29T12:16:44.372</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>1</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="2DD38A00-4EA7-3F9A-83FA-4161C0D0BB78"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262AC9E2">
+													<DocumentID>10727C80-B42A-305F-A3F7-FDBBEB3F4B71</DocumentID>
+													<Name>10727C80-B42A-305F-A3F7-FDBBEB3F4B71</Name>
+													<Description/>
+													<CreatedBy>ouathuser1@AWP</CreatedBy>
+													<CreationDate>2023-12-29T12:16:24.636</CreationDate>
+													<Notes/>
+													<DeveloperText>Low</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticIntegerEnum>
+										<StaticIntegerEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1BB27"
+											RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262B09E2">
+											<DocumentID>A2ADC3A9-1814-3DF8-B649-9EBFE8A1564D</DocumentID>
+											<Name>A2ADC3A9-1814-3DF8-B649-9EBFE8A1564D</Name>
+											<Description/>
+											<CreatedBy>ouathuser1@AWP</CreatedBy>
+											<CreationDate>2023-12-29T12:16:21.911</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>5</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="2DD38A00-4EA7-3F9A-83FA-4161C0D0BB78"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262B49E2">
+													<DocumentID>51BF83D0-A8B9-35B4-A7C6-BC2542A7BBF9</DocumentID>
+													<Name>51BF83D0-A8B9-35B4-A7C6-BC2542A7BBF9</Name>
+													<Description/>
+													<CreatedBy>ouathuser1@AWP</CreatedBy>
+													<CreationDate>2023-12-29T12:16:20.381</CreationDate>
+													<Notes/>
+													<DeveloperText>High</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticIntegerEnum>
+										<StaticIntegerEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1BB27"
+											RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262B89E2">
+											<DocumentID>6074EE2D-480E-35A9-9AD5-0787D1C639CC</DocumentID>
+											<Name>6074EE2D-480E-35A9-9AD5-0787D1C639CC</Name>
+											<Description/>
+											<CreatedBy>ouathuser1@AWP</CreatedBy>
+											<CreationDate>2023-12-29T12:16:19.537</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>3</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="2DD38A00-4EA7-3F9A-83FA-4161C0D0BB78"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E455262BC9E2">
+													<DocumentID>33900189-EEEE-3074-94F8-E25ECD30EDED</DocumentID>
+													<Name>33900189-EEEE-3074-94F8-E25ECD30EDED</Name>
+													<Description/>
+													<CreatedBy>ouathuser1@AWP</CreatedBy>
+													<CreationDate>2023-12-29T12:16:36.949</CreationDate>
+													<Notes/>
+													<DeveloperText>Normal</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticIntegerEnum>
+									</Enums>
+									<PropertyDefinition>
+										<uri
+											id="6E1C8563-A895-39D5-AE70-98103E5E2F41"
+										/>
+									</PropertyDefinition>
+								</StaticIntegerEnumSet>
+							</ValuesDefinition>
+						</IntegerEnumPropertyDefinition>
 					</OwnedTypeDefinition>
 					<Tooltip/>
 					<TypeDefinition>
 						<uri
-							id="98FA9BBD-851C-A1EC-A9A6-7955A974D9A8"
+							id="6E1C8563-A895-39D5-AE70-98103E5E2F41"
 						/>
 					</TypeDefinition>
 				</Property>
@@ -4841,7 +4965,7 @@
 											<Value>2</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-747F44B4D9AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8F789E2"
 													path="Project Management/Web/task_status_assigned.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -4885,7 +5009,7 @@
 											<Value>5</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-75FDE95419AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8F349E2"
 													path="Project Management/Web/task_status_completed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -4929,7 +5053,7 @@
 											<Value>1</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-777C607DD9AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8EF09E2"
 													path="Project Management/Web/task_status_created.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -4973,7 +5097,7 @@
 											<Value>3</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-7BF7868059AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8E6C9E2"
 													path="Project Management/Web/task_status_inprogress.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5017,7 +5141,7 @@
 											<Value>4</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-8073AD2119AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8DA49E2"
 													path="Project Management/Web/task_status_suspend.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5061,7 +5185,7 @@
 											<Value>6</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-7D76404259AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8E289E2"
 													path="Project Management/Web/task_status_obsolete.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5105,7 +5229,7 @@
 											<Value>7</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-7EF5054099AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8DE89E2"
 													path="Project Management/Web/task_status_paused.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5149,7 +5273,7 @@
 											<Value>8</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-AFEC-7A78BED159AA"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8EB09E2"
 													path="Project Management/Web/task_status_failed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

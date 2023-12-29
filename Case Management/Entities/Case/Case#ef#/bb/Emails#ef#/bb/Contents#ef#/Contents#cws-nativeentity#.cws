@@ -1381,7 +1381,7 @@
 		</ContentTemplateBuildingBlock>
 		<FileBuildingBlock
 			type="com.cordys.entity.buildingblocks.file.FileBuildingBlock"
-			typeVersion="A4C3F04A-EC1A-A1EC-B7FF-BB7161248ED8"
+			typeVersion="8C16454B-C921-A1ED-9377-9E052894B50B"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8249-541CF417196D">
 			<DocumentID>98FA9BBD-851C-A1EB-8249-541CF416D96D</DocumentID>
 			<Name>File</Name>
@@ -1405,6 +1405,7 @@
 					<CreationDate>2020-10-08T05:18:29.326</CreationDate>
 					<Notes/>
 					<ConvertedMaxFileSize></ConvertedMaxFileSize>
+					<EnableESignature>false</EnableESignature>
 					<EnableUploadOnError>true</EnableUploadOnError>
 					<FileSizeUnit></FileSizeUnit>
 					<FileTypes></FileTypes>
@@ -1643,6 +1644,42 @@
 					<Notes/>
 					<ActionDisplayName>renameDocument</ActionDisplayName>
 					<ActionId>A4C3F04AEC1AA1ECB7FF1177EDAB0ED8</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FDBD764C09E2">
+					<DocumentID>8D256263-31E7-33DD-B3D7-94E390817E96</DocumentID>
+					<Name>SendForSignature</Name>
+					<Description>SendForSignature</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:30.187</CreationDate>
+					<Notes/>
+					<ActionDisplayName>sendForSignature</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375773DC747350B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FDBD764C49E2">
+					<DocumentID>482D23BD-D962-3933-9AE8-BB493B804920</DocumentID>
+					<Name>CancelSignatureRequest</Name>
+					<Description>CancelSignatureRequest</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:42.037</CreationDate>
+					<Notes/>
+					<ActionDisplayName>cancelSignatureRequest</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED937587A98E84B50B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FDBD764C89E2">
+					<DocumentID>6282C0C7-B75B-3DD2-8E67-3F7AFC5DB159</DocumentID>
+					<Name>GetSignatureStatus</Name>
+					<Description>GetSignatureStatus</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:37.704</CreationDate>
+					<Notes/>
+					<ActionDisplayName>getSignatureStatus</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375A10960C0F50B</ActionId>
 				</FileAction>
 			</OwnedActions>
 			<Properties>

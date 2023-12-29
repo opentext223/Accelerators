@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -1342,7 +1344,7 @@
 											<Value>Open</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8488-CFBB6F969113"
+													id="28DFEB6B-98A5-A1EE-A990-BC05C6CE89E2"
 													path="Task List Management/Web/tasklist_status_open.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1386,7 +1388,7 @@
 											<Value>Completed</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8488-CE3CD3A69113"
+													id="28DFEB6B-98A5-A1EE-A990-BC05C6DCC9E2"
 													path="Task List Management/Web/tasklist_status_completed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

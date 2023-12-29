@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -909,7 +911,7 @@
 											<Value>Inprogress</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A9A3-E5ACCA3D99A8"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B90409E2"
 													path="Project Management/Web/Project_Draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -953,7 +955,7 @@
 											<Value>Completed</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A9A3-E2AF5F3B59A8"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B90849E2"
 													path="Project Management/Web/Project_Active.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -997,7 +999,7 @@
 											<Value>New</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A9A4-020E807F19A8"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8FB89E2"
 													path="Project Management/Web/Project_New.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1041,7 +1043,7 @@
 											<Value>Inactive</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A9A3-E42E146F19A8"
+													id="28DFEB6B-98A5-A1EE-A990-BE46B8FFC9E2"
 													path="Project Management/Web/Project_Inactive.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>

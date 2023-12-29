@@ -12,8 +12,10 @@
 	<Notes/>
 	<ExposeForReuse>false</ExposeForReuse>
 	<IsAbstract>false</IsAbstract>
+	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>
+	<RepositoryConnectionId></RepositoryConnectionId>
 	<TableName></TableName>
 	<BuildingBlocks>
 		<uri
@@ -1135,7 +1137,7 @@
 											<Value>New</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-F55429F259A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA049E2"
 													path="Schedule Management/Web/tasklist_status_open.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1179,7 +1181,7 @@
 											<Value>Assigned</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CCFD9C4999A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA889E2"
 													path="Schedule Management/Web/Schedule_Draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1223,7 +1225,7 @@
 											<Value>In Review</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CCFD9C4999A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA889E2"
 													path="Schedule Management/Web/Schedule_Draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1267,7 +1269,7 @@
 											<Value>In Progress</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CCFD9C4999A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA889E2"
 													path="Schedule Management/Web/Schedule_Draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1311,7 +1313,7 @@
 											<Value>Completed</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-F2573C6319A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CD9C09E2"
 													path="Schedule Management/Web/task_status_completed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1355,7 +1357,7 @@
 											<Value>Planned</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EC-A909-CCFD9C4999A7"
+													id="28DFEB6B-98A5-A1EE-A990-BD83CDA889E2"
 													path="Schedule Management/Web/Schedule_Draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -2523,6 +2525,7 @@
 		</RelationshipBuildingBlock>
 		<TrackingBuildingBlock
 			type="com.cordys.entity.buildingblocks.tracking.TrackingBuildingBlock"
+			typeVersion="E71CDA2C-7846-4CDA-BCB3-A75D3AD4A9FE"
 			RuntimeDocumentID="98FA9BBD-851C-A1EC-A986-243D3F6619A8">
 			<DocumentID>98FA9BBD-851C-A1EC-A986-243D3F65D9A8</DocumentID>
 			<Name>Tracking</Name>
@@ -2816,10 +2819,65 @@
 						/>
 					</Target>
 				</Relationship>
+				<Relationship
+					type="com.cordys.entity.core.structure.relationship.Relationship"
+					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E158B11A89E2">
+					<DocumentID>08E2F6EC-B809-3BBF-A878-8F71F3C42F4A</DocumentID>
+					<Name>ReadBy</Name>
+					<Description>ReadBy</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:32.551</CreationDate>
+					<Notes/>
+					<ExposeForReuse>false</ExposeForReuse>
+					<HasFK>false</HasFK>
+					<MaxCardinality>-1</MaxCardinality>
+					<MinCardinality>0</MinCardinality>
+					<OwnsJoinTable>true</OwnsJoinTable>
+					<RelationshipType>ToPeer</RelationshipType>
+					<RestrictDeleteTarget>false</RestrictDeleteTarget>
+					<BuildingBlock>
+						<uri
+							id="98FA9BBD-851C-A1EC-A986-243D3F65D9A8"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<ForeignKeyProperties>
+						<uri
+							id="5C600B7A-94FE-3C1B-BF84-7E1FA8D0E85F"
+						/>
+					</ForeignKeyProperties>
+					<Inverse/>
+					<Original/>
+					<ReferringProperties>
+						<ReferringProperty
+							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E158B11AC9E2">
+							<DocumentID>5C600B7A-94FE-3C1B-BF84-7E1FA8D0E85F</DocumentID>
+							<Name>ReadBy_Id</Name>
+							<Description>ReadBy_Id</Description>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:38.461</CreationDate>
+							<Notes/>
+							<NameIsExternallyManaged>false</NameIsExternallyManaged>
+							<TargetProperty>
+								<uri
+									id="F8B156B4-FF8F-11E6-E6F1-BB7823D79319"
+								/>
+							</TargetProperty>
+						</ReferringProperty>
+					</ReferringProperties>
+					<Target>
+						<uri
+							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
+						/>
+					</Target>
+				</Relationship>
 			</Relationships>
 			<Tracking>
 				<Tracking
 					type="com.cordys.entity.buildingblocks.tracking.Tracking"
+					typeVersion="EEA67FA8-049B-498D-A635-D0A9B48E2456"
 					RuntimeDocumentID="98FA9BBD-851C-A1EC-A986-243D3F6599A8">
 					<DocumentID>98FA9BBD-851C-A1EC-A986-243D3F6559A8</DocumentID>
 					<Name>Tracking</Name>
@@ -2828,6 +2886,7 @@
 					<CreationDate>2022-03-17T18:02:16.168</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
+					<ReadBy>false</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EC-A986-243D3F65D9A8"

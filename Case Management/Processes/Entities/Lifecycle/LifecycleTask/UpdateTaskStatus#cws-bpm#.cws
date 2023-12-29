@@ -1831,6 +1831,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -2007,6 +2008,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -2183,6 +2185,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -2471,6 +2474,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -3137,6 +3141,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -3436,6 +3441,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SyncDBBeforeActivity>false</SyncDBBeforeActivity>
 			<links/>
 			<ActivityMessages/>
@@ -3774,6 +3780,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -4101,6 +4108,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -4385,7 +4393,7 @@
 		</SequenceFlow>
 		<SendActivity
 			type="com.cordys.bpm.activity.SendActivity"
-			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
+			typeVersion="E23922D0-C7DB-41AE-986F-1FACA98A7A80 ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-BA87-0CC60475598D">
 			<DocumentID>98FA9BBD-851C-A1EB-BA87-0CC60475998D</DocumentID>
 			<Name>Send Message</Name>
@@ -4430,6 +4438,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SendMessageTo>specificProcess</SendMessageTo>
 			<SyncDBBeforeActivity>false</SyncDBBeforeActivity>
 			<links/>
@@ -4573,7 +4582,7 @@
 		</SequenceFlow>
 		<SendActivity
 			type="com.cordys.bpm.activity.SendActivity"
-			typeVersion="ru3229e8-6598-4208-9804-a6e623c0qyte"
+			typeVersion="E23922D0-C7DB-41AE-986F-1FACA98A7A80 ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-BA87-0CC60472D98D">
 			<DocumentID>98FA9BBD-851C-A1EB-BA87-0CC60473198D</DocumentID>
 			<Name>Send Message (2)</Name>
@@ -4618,6 +4627,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SendMessageTo>specificProcess</SendMessageTo>
 			<SyncDBBeforeActivity>false</SyncDBBeforeActivity>
 			<links/>

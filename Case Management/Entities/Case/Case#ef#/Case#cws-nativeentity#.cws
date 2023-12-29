@@ -1337,7 +1337,7 @@
 											<Value>Open</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-681D4DF51984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006F209E2"
 													path="Case Management/Web/Status_Open.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1381,7 +1381,7 @@
 											<Value>In Progress</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-652068345984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006FE89E2"
 													path="Case Management/Web/Status_In Progress.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1425,7 +1425,7 @@
 											<Value>Resolved</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-6B21DA67D984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006E589E2"
 													path="Case Management/Web/Status_Resolved.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1469,7 +1469,7 @@
 											<Value>Assigned</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-60A517E79984"
+													id="28DFEB6B-98A5-A1EE-A990-C080071789E2"
 													path="Case Management/Web/Status_Assigned.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1513,7 +1513,7 @@
 											<Value>Canceled</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-6223A5AA9984"
+													id="28DFEB6B-98A5-A1EE-A990-C080071349E2"
 													path="Case Management/Web/Status_Cancelled.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1557,7 +1557,7 @@
 											<Value>Solution Proposed</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-6CA07E4D5984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006E189E2"
 													path="Case Management/Web/Status_Solution Proposed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1601,7 +1601,7 @@
 											<Value>On Hold</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-669EB27B9984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006F649E2"
 													path="Case Management/Web/Status_On Hold.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1645,7 +1645,7 @@
 											<Value>Rejected</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-699C08041984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006E9C9E2"
 													path="Case Management/Web/Status_Rejected.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1689,7 +1689,7 @@
 											<Value>Accepted</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-5F262CA85984"
+													id="28DFEB6B-98A5-A1EE-A990-C080071BC9E2"
 													path="Case Management/Web/Status_Accepted.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1733,7 +1733,7 @@
 											<Value>Closed</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-63A1EC05D984"
+													id="28DFEB6B-98A5-A1EE-A990-C080070F49E2"
 													path="Case Management/Web/Status_Closed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -2213,7 +2213,7 @@
 											<Value>SLA Not Attached</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8295-CBFA8D2FD113"
+													id="28DFEB6B-98A5-A1EE-A990-C080078CC9E2"
 													path="Case Management/Web/case_status_open.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -2257,7 +2257,7 @@
 											<Value>Within Time Limit</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8234-786D9BE71113"
+													id="28DFEB6B-98A5-A1EE-A990-C08007AA09E2"
 													path="Case Management/Web/case_status_active.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -2301,7 +2301,7 @@
 											<Value>Breached</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-8234-767B26FBD113"
+													id="28DFEB6B-98A5-A1EE-A990-C080079949E2"
 													path="Case Management/Web/case_status_inactive.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5000,7 +5000,7 @@
 		</RelationshipBuildingBlock>
 		<FileBuildingBlock
 			type="com.cordys.entity.buildingblocks.file.FileBuildingBlock"
-			typeVersion="A4C3F04A-EC1A-A1EC-B7FF-BB7161248ED8"
+			typeVersion="8C16454B-C921-A1ED-9377-9E052894B50B"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFA0-76ED7F3F996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFA0-76ED7F3F596C</DocumentID>
 			<Name>File</Name>
@@ -5024,6 +5024,7 @@
 					<CreationDate>2020-09-24T16:23:20.132</CreationDate>
 					<Notes/>
 					<ConvertedMaxFileSize></ConvertedMaxFileSize>
+					<EnableESignature>false</EnableESignature>
 					<EnableUploadOnError>true</EnableUploadOnError>
 					<FileSizeUnit></FileSizeUnit>
 					<FileTypes></FileTypes>
@@ -5244,6 +5245,42 @@
 					<Notes/>
 					<ActionDisplayName>renameDocument</ActionDisplayName>
 					<ActionId>A4C3F04AEC1AA1ECB7FF1177EDAB0ED8</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-F3486135C9E2">
+					<DocumentID>AA871803-FE3B-3338-B541-C7D4DB537FA2</DocumentID>
+					<Name>SendForSignature</Name>
+					<Description>SendForSignature</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:31.727</CreationDate>
+					<Notes/>
+					<ActionDisplayName>sendForSignature</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375773DC747350B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-F348613609E2">
+					<DocumentID>52E43F2A-D2CD-326E-8E92-A2F2D2E916C9</DocumentID>
+					<Name>CancelSignatureRequest</Name>
+					<Description>CancelSignatureRequest</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:27.764</CreationDate>
+					<Notes/>
+					<ActionDisplayName>cancelSignatureRequest</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED937587A98E84B50B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-F348613649E2">
+					<DocumentID>CD122603-9C81-3EC3-864E-B4DE72C8C912</DocumentID>
+					<Name>GetSignatureStatus</Name>
+					<Description>GetSignatureStatus</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:30.984</CreationDate>
+					<Notes/>
+					<ActionDisplayName>getSignatureStatus</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375A10960C0F50B</ActionId>
 				</FileAction>
 			</OwnedActions>
 			<Properties>
@@ -5538,6 +5575,7 @@
 		</FileBuildingBlock>
 		<TrackingBuildingBlock
 			type="com.cordys.entity.buildingblocks.tracking.TrackingBuildingBlock"
+			typeVersion="E71CDA2C-7846-4CDA-BCB3-A75D3AD4A9FE"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-7511D616996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFD6-7511D616596C</DocumentID>
 			<Name>Tracking</Name>
@@ -5831,10 +5869,65 @@
 						/>
 					</Target>
 				</Relationship>
+				<Relationship
+					type="com.cordys.entity.core.structure.relationship.Relationship"
+					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-F348613809E2">
+					<DocumentID>BC1C1A3A-164A-3A9B-B373-FD1216A60392</DocumentID>
+					<Name>ReadBy</Name>
+					<Description>ReadBy</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:22.717</CreationDate>
+					<Notes/>
+					<ExposeForReuse>false</ExposeForReuse>
+					<HasFK>false</HasFK>
+					<MaxCardinality>-1</MaxCardinality>
+					<MinCardinality>0</MinCardinality>
+					<OwnsJoinTable>true</OwnsJoinTable>
+					<RelationshipType>ToPeer</RelationshipType>
+					<RestrictDeleteTarget>false</RestrictDeleteTarget>
+					<BuildingBlock>
+						<uri
+							id="98FA9BBD-851C-A1EA-BFD6-7511D616596C"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<ForeignKeyProperties>
+						<uri
+							id="9508B692-7294-3C80-AE05-75004A03CE8C"
+						/>
+					</ForeignKeyProperties>
+					<Inverse/>
+					<Original/>
+					<ReferringProperties>
+						<ReferringProperty
+							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-F348613849E2">
+							<DocumentID>9508B692-7294-3C80-AE05-75004A03CE8C</DocumentID>
+							<Name>ReadBy_Id</Name>
+							<Description>ReadBy_Id</Description>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:24.722</CreationDate>
+							<Notes/>
+							<NameIsExternallyManaged>false</NameIsExternallyManaged>
+							<TargetProperty>
+								<uri
+									id="F8B156B4-FF8F-11E6-E6F1-BB7823D79319"
+								/>
+							</TargetProperty>
+						</ReferringProperty>
+					</ReferringProperties>
+					<Target>
+						<uri
+							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
+						/>
+					</Target>
+				</Relationship>
 			</Relationships>
 			<Tracking>
 				<Tracking
 					type="com.cordys.entity.buildingblocks.tracking.Tracking"
+					typeVersion="EEA67FA8-049B-498D-A635-D0A9B48E2456"
 					RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-7511D616196C">
 					<DocumentID>98FA9BBD-851C-A1EA-BFD6-7511D615D96C</DocumentID>
 					<Name>Tracking</Name>
@@ -5843,6 +5936,7 @@
 					<CreationDate>2020-09-25T18:10:56.512</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
+					<ReadBy>false</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EA-BFD6-7511D616596C"
@@ -5875,6 +5969,7 @@
 					<FormerAssignee>false</FormerAssignee>
 					<GroupAssignee>false</GroupAssignee>
 					<NewAssignee>false</NewAssignee>
+					<ShareInstanceRoleOnForward>false</ShareInstanceRoleOnForward>
 					<TriggerType>dynamic</TriggerType>
 					<BuildingBlock>
 						<uri
@@ -5885,7 +5980,7 @@
 					<EntityExpression>
 						<EntityExpression
 							type="com.cordys.entity.services.entityexpression.EntityExpression"
-							typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+							typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 							RuntimeDocumentID="98FA9BBD-851C-A1EA-BFD6-7511D609996C">
 							<DocumentID>98FA9BBD-851C-A1EA-BFD6-7511D609596C</DocumentID>
 							<Name>DeadlineDurationExpresion</Name>
@@ -5955,8 +6050,10 @@
 					</EntityExpression>
 					<FormerAssigneeEmailTemplate/>
 					<GroupAssigneeEmailTemplate/>
+					<InstanceRoleOnForward/>
 					<NewAssigneeEmailTemplate/>
 					<Role/>
+					<SharingBuildingBlock/>
 				</Assignee>
 			</Assignee>
 			<Entity>
@@ -6203,6 +6300,7 @@
 			<Content>
 				<Content
 					type="com.cordys.entity.buildingblocks.content.Content"
+					typeVersion="98fa9b06-188b-a1ed-b293-670a6f3b105f"
 					RuntimeDocumentID="98FA9BBD-851C-A1EA-BFEA-14161CE6596C">
 					<DocumentID>98FA9BBD-851C-A1EA-BFEA-14161CE6196C</DocumentID>
 					<Name>Content</Name>
@@ -6212,12 +6310,14 @@
 					<Notes/>
 					<MaxNoOfFiles></MaxNoOfFiles>
 					<RootPath>Case</RootPath>
+					<SaveSignedDocumentAs>NewVersion</SaveSignedDocumentAs>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EA-BFEA-14161CE6996C"
 						/>
 					</BuildingBlock>
 					<DisplayName/>
+					<SignedDocumentsLocation/>
 				</Content>
 			</Content>
 			<Entity>
@@ -6870,7 +6970,7 @@
 			<Email>
 				<Email
 					type="com.cordys.entity.buildingblocks.email.Email"
-					typeVersion="70B3859A-6661-405A-915F-79AC52C92B04"
+					typeVersion="B59CF123-2383-49B2-8C3E-D8F323D8F3F8"
 					RuntimeDocumentID="98FA9BBD-851C-A1EB-8248-D54F59FE196D">
 					<DocumentID>98FA9BBD-851C-A1EB-8248-D54F59FDD96D</DocumentID>
 					<Name>Email</Name>
@@ -6889,6 +6989,7 @@
 					<EmailConfigurationName></EmailConfigurationName>
 					<EmailMessageFileType>eml</EmailMessageFileType>
 					<SaveLocationOfEmailMessage>Emails/Messages</SaveLocationOfEmailMessage>
+					<UseLoggedInUserInFromAddress>false</UseLoggedInUserInFromAddress>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EB-8248-D54F59FE596D"
@@ -6900,11 +7001,18 @@
 					<ContentFolderLocationForIncomingAttachment/>
 					<ContentFolderLocationForSaveEmailTo/>
 					<DisplayName/>
+					<DraftOrForwardEmailAttachmentPreviewLayout/>
+					<EmailAttachmentPreviewLayout/>
 					<EmailConfig>
 						<uri
 							id="98FA9BBD-851C-A1EB-8249-541CF44C996D"
 						/>
 					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="98FA9BBD-851C-A1EB-8249-541CF44ED96D"
+						/>
+					</EmailContentLayout>
 				</Email>
 			</Email>
 			<Entity>

@@ -1139,7 +1139,7 @@
 											<Value>Draft</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-C14FD8919113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26C0949E2"
 													path="Document Management/Web/docmgt_status_draft.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1183,7 +1183,7 @@
 											<Value>Review</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-CA0B317C9113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26BF449E2"
 													path="Document Management/Web/docmgt_status_waitingforreview.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1227,7 +1227,7 @@
 											<Value>Approved</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-BDFE7BD4D113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26C1189E2"
 													path="Document Management/Web/docmgt_status_approved.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1271,7 +1271,7 @@
 											<Value>Rejected</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-C516E96AD113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26BFCC9E2"
 													path="Document Management/Web/docmgt_status_rejected.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1315,7 +1315,7 @@
 											<Value>New</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-C3424E795113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26C00C9E2"
 													path="Document Management/Web/docmgt_status_new.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1359,7 +1359,7 @@
 											<Value>Archived</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-BF7C4CB7D113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26C0D49E2"
 													path="Document Management/Web/docmgt_status_archived.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -1403,7 +1403,7 @@
 											<Value>Validated</Value>
 											<Icon>
 												<uri
-													id="0050560B-AB67-A1EB-82C0-C6F17AC11113"
+													id="28DFEB6B-98A5-A1EE-A990-BFA26BF889E2"
 													path="Document Management/Web/docmgt_status_validated.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -2522,7 +2522,7 @@
 		</RelationshipBuildingBlock>
 		<FileBuildingBlock
 			type="com.cordys.entity.buildingblocks.file.FileBuildingBlock"
-			typeVersion="A4C3F04A-EC1A-A1EC-B7FF-BB7161248ED8"
+			typeVersion="8C16454B-C921-A1ED-9377-9E052894B50B"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFA0-489EE234596C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFA0-489EE234196C</DocumentID>
 			<Name>File</Name>
@@ -2546,6 +2546,7 @@
 					<CreationDate>2020-09-24T16:16:46.818</CreationDate>
 					<Notes/>
 					<ConvertedMaxFileSize></ConvertedMaxFileSize>
+					<EnableESignature>false</EnableESignature>
 					<EnableUploadOnError>true</EnableUploadOnError>
 					<FileSizeUnit></FileSizeUnit>
 					<FileTypes></FileTypes>
@@ -2766,6 +2767,42 @@
 					<Notes/>
 					<ActionDisplayName>renameDocument</ActionDisplayName>
 					<ActionId>A4C3F04AEC1AA1ECB7FF1177EDAB0ED8</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E7579F8709E2">
+					<DocumentID>51E62623-0428-3CA3-9FAA-0A57E89F2997</DocumentID>
+					<Name>SendForSignature</Name>
+					<Description>SendForSignature</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:37.713</CreationDate>
+					<Notes/>
+					<ActionDisplayName>sendForSignature</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375773DC747350B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E7579F8749E2">
+					<DocumentID>1CE9EFCD-448C-3917-AED7-1CA43AC32EFD</DocumentID>
+					<Name>CancelSignatureRequest</Name>
+					<Description>CancelSignatureRequest</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:30.922</CreationDate>
+					<Notes/>
+					<ActionDisplayName>cancelSignatureRequest</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED937587A98E84B50B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-E7579F8789E2">
+					<DocumentID>642D3CC7-187F-3ECE-8845-0466C3C4F200</DocumentID>
+					<Name>GetSignatureStatus</Name>
+					<Description>GetSignatureStatus</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:41.986</CreationDate>
+					<Notes/>
+					<ActionDisplayName>getSignatureStatus</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375A10960C0F50B</ActionId>
 				</FileAction>
 			</OwnedActions>
 			<Properties>

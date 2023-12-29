@@ -1350,6 +1350,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -1627,6 +1628,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SoapProcessor></SoapProcessor>
 			<SoapRequestTimeOut></SoapRequestTimeOut>
 			<SoapRequestTimeOutDynamic>staticValue</SoapRequestTimeOutDynamic>
@@ -1745,7 +1747,7 @@
 		</ServiceTask>
 		<HumanTask
 			type="com.cordys.bpm.activity.HumanTask"
-			typeVersion="D6F8B2B5-77F6-40E4-AD91-6A597F4DDDB1 ru3229e8-6598-4208-9804-a6e623c0qyte"
+			typeVersion="6B242BAC-2CF5-4676-8CF4-9176288B0CFD ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-9663-468109469974">
 			<DocumentID>98FA9BBD-851C-A1EB-9663-46810946D974</DocumentID>
 			<Name>ApprovalTaskLayout</Name>
@@ -1870,6 +1872,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SendEmail>false</SendEmail>
 			<SendReminderDynamic>staticRealDuration</SendReminderDynamic>
 			<SenderDisplayName></SenderDisplayName>
@@ -1979,7 +1982,7 @@
 		</HumanTask>
 		<HumanTask
 			type="com.cordys.bpm.activity.HumanTask"
-			typeVersion="D6F8B2B5-77F6-40E4-AD91-6A597F4DDDB1 ru3229e8-6598-4208-9804-a6e623c0qyte"
+			typeVersion="6B242BAC-2CF5-4676-8CF4-9176288B0CFD ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-9663-468109449974">
 			<DocumentID>98FA9BBD-851C-A1EB-9663-46810944D974</DocumentID>
 			<Name>ApprovalTaskLayout (2)</Name>
@@ -2104,6 +2107,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SendEmail>false</SendEmail>
 			<SendReminderDynamic>staticRealDuration</SendReminderDynamic>
 			<SenderDisplayName></SenderDisplayName>
@@ -2349,7 +2353,7 @@
 		</SequenceFlow>
 		<HumanTask
 			type="com.cordys.bpm.activity.HumanTask"
-			typeVersion="D6F8B2B5-77F6-40E4-AD91-6A597F4DDDB1 ru3229e8-6598-4208-9804-a6e623c0qyte"
+			typeVersion="6B242BAC-2CF5-4676-8CF4-9176288B0CFD ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-9663-468109409974">
 			<DocumentID>98FA9BBD-851C-A1EB-9663-46810940D974</DocumentID>
 			<Name>ApprovalTaskLayout (3)</Name>
@@ -2474,6 +2478,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SendEmail>false</SendEmail>
 			<SendReminderDynamic>staticRealDuration</SendReminderDynamic>
 			<SenderDisplayName></SenderDisplayName>
@@ -2583,7 +2588,7 @@
 		</HumanTask>
 		<HumanTask
 			type="com.cordys.bpm.activity.HumanTask"
-			typeVersion="D6F8B2B5-77F6-40E4-AD91-6A597F4DDDB1 ru3229e8-6598-4208-9804-a6e623c0qyte"
+			typeVersion="6B242BAC-2CF5-4676-8CF4-9176288B0CFD ru3229e8-6598-4208-9804-a6e623c0qyte"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-9663-4681093E9974">
 			<DocumentID>98FA9BBD-851C-A1EB-9663-4681093ED974</DocumentID>
 			<Name>ApprovalTaskLayout (4)</Name>
@@ -2708,6 +2713,7 @@
 			<RpaRoboName></RpaRoboName>
 			<RpaRoboSelection>static</RpaRoboSelection>
 			<RpaRoboStrategy>triggerWithAnyRobo</RpaRoboStrategy>
+			<RpaType>uipath</RpaType>
 			<SendEmail>false</SendEmail>
 			<SendReminderDynamic>staticRealDuration</SendReminderDynamic>
 			<SenderDisplayName></SenderDisplayName>

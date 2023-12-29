@@ -48,7 +48,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BF96-0F7FCBD8996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BF96-0F7FCBD8596C</DocumentID>
 			<Name>Results1</Name>
@@ -85,6 +85,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -92,10 +93,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BF96-0F7FCBD8196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BF96-0F7FCBD7D96C</DocumentID>
 			<Name>Results2</Name>
@@ -132,6 +134,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -139,10 +142,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8087-2870F7EA596C">
 			<DocumentID>98FA9BBD-851C-A1EB-8087-2870F7EA196C</DocumentID>
 			<Name>Results3</Name>
@@ -179,6 +183,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -186,10 +191,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-8087-68AADDDE196C">
 			<DocumentID>98FA9BBD-851C-A1EB-8087-68AADDDDD96C</DocumentID>
 			<Name>Results4</Name>
@@ -226,6 +232,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -233,10 +240,11 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-81B6-CAB0DA4C196C">
 			<DocumentID>98FA9BBD-851C-A1EB-81B6-CAB0DA4BD96C</DocumentID>
 			<Name>Results</Name>
@@ -273,6 +281,7 @@
 					</Identifier>
 				</TranslatableText>
 			</LocalizableDisplayName>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation>
 				<uri
@@ -280,6 +289,7 @@
 				/>
 			</WorklistAssociation>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 	</LayoutPanels>
 	<Original/>

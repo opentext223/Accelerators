@@ -20,6 +20,7 @@
 	<HideIfNoResults>false</HideIfNoResults>
 	<IsCardViewEnabled>true</IsCardViewEnabled>
 	<IsChartViewEnabled>false</IsChartViewEnabled>
+	<IsHighlightUnread>false</IsHighlightUnread>
 	<IsReadOnlyView>false</IsReadOnlyView>
 	<ItemOpenMode>0</ItemOpenMode>
 	<LayoutId>98FA9BBD-851C-A1EA-BFC0-CDB0A2F9196C</LayoutId>
@@ -30,6 +31,7 @@
 	<ShowTotalCountInList>false</ShowTotalCountInList>
 	<UserVisible>true</UserVisible>
 	<ActionBar/>
+	<AssignedFilterCriteria/>
 	<BuildingBlock>
 		<uri
 			id="98FA9BBD-851C-A1EA-BFBD-FB3BCB9E996C"
@@ -359,7 +361,7 @@
 	<FilterCriteria>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFC3-6C470639196C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFC3-6C470638D96C</DocumentID>
 			<Name>FilterCriteria</Name>
@@ -449,7 +451,7 @@
 	<WorklistColumns>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFC0-CDB0A2F3996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFC0-CDB0A2F3596C</DocumentID>
 			<Name>Untitled WorklistColumn</Name>
@@ -523,7 +525,7 @@
 		</WorklistColumn>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFC0-CDB0A2F0996C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFC0-CDB0A2F0596C</DocumentID>
 			<Name>Untitled WorklistColumn (3)</Name>
@@ -597,7 +599,7 @@
 		</WorklistColumn>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="98FA9BBD-851C-A1EA-BFC3-6C470638596C">
 			<DocumentID>98FA9BBD-851C-A1EA-BFC3-6C470638196C</DocumentID>
 			<Name>Untitled WorklistColumn (2)</Name>
@@ -671,7 +673,7 @@
 		</WorklistColumn>
 		<WorklistColumn
 			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
-			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			typeVersion="11744AA9-675D-45A0-B757-52B91B7D6B58"
 			RuntimeDocumentID="0050560B-AB67-A1EB-8524-C835A8A81113">
 			<DocumentID>0050560B-AB67-A1EB-8524-C835A8A7D113</DocumentID>
 			<Name>Untitled WorklistColumn (1)</Name>

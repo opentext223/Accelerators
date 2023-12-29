@@ -584,7 +584,7 @@
 		</IdentityBuildingBlock>
 		<InboxTaskBuildingBlock
 			type="com.cordys.entity.buildingblocks.inboxtask.InboxTaskBuildingBlock"
-			typeVersion="4936c25f-e321-4398-8ae8-d69178136b4d"
+			typeVersion="D646C9D1-F5CF-4407-BF9E-7F42B1C9158F"
 			RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-5406E6CE7FCB">
 			<DocumentID>98FA9BBD-851C-A1EA-BFE9-A70F16FF196C</DocumentID>
 			<Name>Task</Name>
@@ -2422,7 +2422,7 @@
 					<CreationDate>2020-09-26T03:20:40.717</CreationDate>
 					<Notes/>
 					<ConflictLevel>None</ConflictLevel>
-					<DataType>Decimal</DataType>
+					<DataType>IntegerValueList</DataType>
 					<ExposeForReuse>false</ExposeForReuse>
 					<Expression></Expression>
 					<IsComputedProperty>false</IsComputedProperty>
@@ -2456,30 +2456,154 @@
 						</TranslatableText>
 					</DisplayName>
 					<OwnedTypeDefinition>
-						<DecimalPropertyDefinition
-							type="com.cordys.entity.core.typesystem.primitives.number.DecimalPropertyDefinition"
-							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
-							RuntimeDocumentID="98FA9BBD-851C-A1EA-BFE9-A70F1755D96C">
-							<DocumentID>98FA9BBD-851C-A1EA-BFE9-A70F1755996C</DocumentID>
-							<Name>98FA9BBD-851C-A1EA-BFE9-A70F1755996C</Name>
-							<Description>98FA9BBD-851C-A1EA-BFE9-A70F1755996C</Description>
-							<CreatedBy>sysadmin</CreatedBy>
-							<CreationDate>2020-09-26T03:20:40.721</CreationDate>
+						<IntegerEnumPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.staticEnum.IntegerEnumPropertyDefinition"
+							typeVersion="005056C0-0008-11E6-ECD4-9ED50A5ADB27 4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7C49E2">
+							<DocumentID>AF56F788-30D6-3788-B7AE-B097E2AE05AA</DocumentID>
+							<Name>AF56F788-30D6-3788-B7AE-B097E2AE05AA</Name>
+							<Description/>
+							<CreatedBy>ouathuser1@AWP</CreatedBy>
+							<CreationDate>2023-12-29T12:16:31.753</CreationDate>
 							<Notes/>
 							<DefaultValue></DefaultValue>
-							<DigitsLeftOfDecimal>18</DigitsLeftOfDecimal>
-							<DigitsRightOfDecimal>0</DigitsRightOfDecimal>
-							<Max></Max>
-							<Min></Min>
+							<IsEnumerationSorted>false</IsEnumerationSorted>
 							<lowerBound>1</lowerBound>
 							<upperBound>1</upperBound>
+							<DefaultEnum/>
+							<Enums/>
 							<Type/>
-						</DecimalPropertyDefinition>
+							<ValuesDefinition>
+								<StaticIntegerEnumSet
+									type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnumSet"
+									RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7C89E2">
+									<DocumentID>15D53FF8-9E0A-3D1B-84B0-0760572F8E45</DocumentID>
+									<Name>15D53FF8-9E0A-3D1B-84B0-0760572F8E45</Name>
+									<Description/>
+									<CreatedBy>ouathuser1@AWP</CreatedBy>
+									<CreationDate>2023-12-29T12:16:30.96</CreationDate>
+									<Notes/>
+									<DefaultEnum/>
+									<Enums>
+										<StaticIntegerEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1BB27"
+											RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7CC9E2">
+											<DocumentID>8445B1F9-B3B5-358C-8DCD-A3A2D31FE9C6</DocumentID>
+											<Name>8445B1F9-B3B5-358C-8DCD-A3A2D31FE9C6</Name>
+											<Description/>
+											<CreatedBy>ouathuser1@AWP</CreatedBy>
+											<CreationDate>2023-12-29T12:16:29.265</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>1</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="15D53FF8-9E0A-3D1B-84B0-0760572F8E45"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7D09E2">
+													<DocumentID>BA3DC5DB-7EC3-3333-92A9-EAD9E9D45DB6</DocumentID>
+													<Name>BA3DC5DB-7EC3-3333-92A9-EAD9E9D45DB6</Name>
+													<Description/>
+													<CreatedBy>ouathuser1@AWP</CreatedBy>
+													<CreationDate>2023-12-29T12:16:28.451</CreationDate>
+													<Notes/>
+													<DeveloperText>Low</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticIntegerEnum>
+										<StaticIntegerEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1BB27"
+											RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7D49E2">
+											<DocumentID>64F25593-F422-3FA8-BE5E-1BAFC7768480</DocumentID>
+											<Name>64F25593-F422-3FA8-BE5E-1BAFC7768480</Name>
+											<Description/>
+											<CreatedBy>ouathuser1@AWP</CreatedBy>
+											<CreationDate>2023-12-29T12:16:20.414</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>5</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="15D53FF8-9E0A-3D1B-84B0-0760572F8E45"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7D89E2">
+													<DocumentID>720ADE81-92BF-3A6F-83F9-FE0904A7BEDB</DocumentID>
+													<Name>720ADE81-92BF-3A6F-83F9-FE0904A7BEDB</Name>
+													<Description/>
+													<CreatedBy>ouathuser1@AWP</CreatedBy>
+													<CreationDate>2023-12-29T12:16:16.947</CreationDate>
+													<Notes/>
+													<DeveloperText>High</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticIntegerEnum>
+										<StaticIntegerEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticIntegerEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1BB27"
+											RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7DC9E2">
+											<DocumentID>26D248F0-B742-3C8D-9ED6-562C6A834644</DocumentID>
+											<Name>26D248F0-B742-3C8D-9ED6-562C6A834644</Name>
+											<Description/>
+											<CreatedBy>ouathuser1@AWP</CreatedBy>
+											<CreationDate>2023-12-29T12:16:28.469</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>3</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="15D53FF8-9E0A-3D1B-84B0-0760572F8E45"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A7E09E2">
+													<DocumentID>A9371502-819F-3E62-987D-87E4D707B882</DocumentID>
+													<Name>A9371502-819F-3E62-987D-87E4D707B882</Name>
+													<Description/>
+													<CreatedBy>ouathuser1@AWP</CreatedBy>
+													<CreationDate>2023-12-29T12:16:30.189</CreationDate>
+													<Notes/>
+													<DeveloperText>Normal</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticIntegerEnum>
+									</Enums>
+									<PropertyDefinition>
+										<uri
+											id="AF56F788-30D6-3788-B7AE-B097E2AE05AA"
+										/>
+									</PropertyDefinition>
+								</StaticIntegerEnumSet>
+							</ValuesDefinition>
+						</IntegerEnumPropertyDefinition>
 					</OwnedTypeDefinition>
 					<Tooltip/>
 					<TypeDefinition>
 						<uri
-							id="98FA9BBD-851C-A1EA-BFE9-A70F1755996C"
+							id="AF56F788-30D6-3788-B7AE-B097E2AE05AA"
 						/>
 					</TypeDefinition>
 				</Property>
@@ -4738,7 +4862,7 @@
 		</RelationshipBuildingBlock>
 		<FileBuildingBlock
 			type="com.cordys.entity.buildingblocks.file.FileBuildingBlock"
-			typeVersion="A4C3F04A-EC1A-A1EC-B7FF-BB7161248ED8"
+			typeVersion="8C16454B-C921-A1ED-9377-9E052894B50B"
 			RuntimeDocumentID="98FA9BBD-851C-A1EB-812A-A83286CF996C">
 			<DocumentID>98FA9BBD-851C-A1EB-812A-A83286CF596C</DocumentID>
 			<Name>File</Name>
@@ -4762,6 +4886,7 @@
 					<CreationDate>2020-10-02T12:31:15.747</CreationDate>
 					<Notes/>
 					<ConvertedMaxFileSize></ConvertedMaxFileSize>
+					<EnableESignature>false</EnableESignature>
 					<EnableUploadOnError>true</EnableUploadOnError>
 					<FileSizeUnit></FileSizeUnit>
 					<FileTypes></FileTypes>
@@ -4982,6 +5107,42 @@
 					<Notes/>
 					<ActionDisplayName>renameDocument</ActionDisplayName>
 					<ActionId>A4C3F04AEC1AA1ECB7FF1177EDAB0ED8</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A8009E2">
+					<DocumentID>3A9F75E0-F3DC-3596-8A1F-A43A51975497</DocumentID>
+					<Name>SendForSignature</Name>
+					<Description>SendForSignature</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:24.62</CreationDate>
+					<Notes/>
+					<ActionDisplayName>sendForSignature</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375773DC747350B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A8049E2">
+					<DocumentID>8A9B0363-BF7A-3CF1-A77C-96FF3E343BD4</DocumentID>
+					<Name>CancelSignatureRequest</Name>
+					<Description>CancelSignatureRequest</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:24.657</CreationDate>
+					<Notes/>
+					<ActionDisplayName>cancelSignatureRequest</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED937587A98E84B50B</ActionId>
+				</FileAction>
+				<FileAction
+					type="com.cordys.entity.buildingblocks.file.FileAction"
+					RuntimeDocumentID="28DFEB6B-98A5-A1EE-A990-FAC16A8089E2">
+					<DocumentID>5E5A7946-FBBC-3EE1-882E-17C35DC3FB62</DocumentID>
+					<Name>GetSignatureStatus</Name>
+					<Description>GetSignatureStatus</Description>
+					<CreatedBy>ouathuser1@AWP</CreatedBy>
+					<CreationDate>2023-12-29T12:16:28.489</CreationDate>
+					<Notes/>
+					<ActionDisplayName>getSignatureStatus</ActionDisplayName>
+					<ActionId>8C16454BC921A1ED9375A10960C0F50B</ActionId>
 				</FileAction>
 			</OwnedActions>
 			<Properties>
@@ -5455,7 +5616,7 @@
 											<Value>2</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-60A517E79984"
+													id="28DFEB6B-98A5-A1EE-A990-C080071789E2"
 													path="Case Management/Web/Status_Assigned.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5499,7 +5660,7 @@
 											<Value>5</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-800C18AB9984"
+													id="28DFEB6B-98A5-A1EE-A990-C080070B09E2"
 													path="Case Management/Web/Status_Completed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5543,7 +5704,7 @@
 											<Value>1</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-818A47FB5984"
+													id="28DFEB6B-98A5-A1EE-A990-C080070709E2"
 													path="Case Management/Web/Status_Created.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5587,7 +5748,7 @@
 											<Value>3</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-652068345984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006FE89E2"
 													path="Case Management/Web/Status_In Progress.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5631,7 +5792,7 @@
 											<Value>4</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-8A7FCE0A5984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006DD49E2"
 													path="Case Management/Web/Status_Suspended.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5675,7 +5836,7 @@
 											<Value>6</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-8783286E1984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006FA49E2"
 													path="Case Management/Web/Status_Obselete.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5719,7 +5880,7 @@
 											<Value>7</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-8901B98FD984"
+													id="28DFEB6B-98A5-A1EE-A990-C08006EE09E2"
 													path="Case Management/Web/Status_Paused.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5763,7 +5924,7 @@
 											<Value>8</Value>
 											<Icon>
 												<uri
-													id="98FA9BBD-851C-A1EB-A873-830876B21984"
+													id="28DFEB6B-98A5-A1EE-A990-C0800702C9E2"
 													path="Case Management/Web/Status_Failed.png"
 													type="com.cordys.cws.documenttypes.image.Png"
 												/>
@@ -5898,7 +6059,7 @@
 			<Email>
 				<Email
 					type="com.cordys.entity.buildingblocks.email.Email"
-					typeVersion="70B3859A-6661-405A-915F-79AC52C92B04"
+					typeVersion="B59CF123-2383-49B2-8C3E-D8F323D8F3F8"
 					RuntimeDocumentID="98FA9BBD-851C-A1EB-8249-8860C4B9196D">
 					<DocumentID>98FA9BBD-851C-A1EB-8249-8860C4B8D96D</DocumentID>
 					<Name>Email</Name>
@@ -5917,6 +6078,7 @@
 					<EmailConfigurationName></EmailConfigurationName>
 					<EmailMessageFileType>eml</EmailMessageFileType>
 					<SaveLocationOfEmailMessage>Emails/Messages</SaveLocationOfEmailMessage>
+					<UseLoggedInUserInFromAddress>false</UseLoggedInUserInFromAddress>
 					<BuildingBlock>
 						<uri
 							id="98FA9BBD-851C-A1EB-8249-8860C4B9596D"
@@ -5928,11 +6090,18 @@
 					<ContentFolderLocationForIncomingAttachment/>
 					<ContentFolderLocationForSaveEmailTo/>
 					<DisplayName/>
+					<DraftOrForwardEmailAttachmentPreviewLayout/>
+					<EmailAttachmentPreviewLayout/>
 					<EmailConfig>
 						<uri
 							id="98FA9BBD-851C-A1EB-8249-541CF44C996D"
 						/>
 					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="98FA9BBD-851C-A1EB-8249-EDF099C0D96D"
+						/>
+					</EmailContentLayout>
 				</Email>
 			</Email>
 			<Entity>

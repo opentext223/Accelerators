@@ -66,7 +66,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
 			RuntimeDocumentID="00505601-718D-A1EB-8315-96F0F00DDBFF">
 			<DocumentID>00505601-718D-A1EB-8315-96F0F00D9BFF</DocumentID>
 			<Name>Layout2</Name>
@@ -89,9 +89,11 @@
 				/>
 			</LayoutAssociation>
 			<LocalizableDisplayName/>
+			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>
 			<XFormAssociation/>
+			<filterCriteria/>
 		</LayoutPanel>
 	</LayoutPanels>
 	<Original/>
